@@ -134,16 +134,7 @@ Contributions are welcome! To contribute:
 
 ---
 
-## **License**
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
 ## **Contact**
 If you have any questions, feel free to reach out:
 - Discord: tri4ngulum
 - GitHub: https://github.com/MithunMahesh
-
----
-
-Let me know if you need further tweaks! 😊
