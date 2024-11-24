@@ -1,0 +1,32 @@
+# Command to run your Python program
+run = "python3 main.py"
+
+# Specify the primary language
+language = "python3"
+entrypoint = "main.py"
+
+# Hide unnecessary files and directories in the workspace
+hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
+modules = ["python-3.10", "python-3.11"]
+
+# Use the stable nix channel for dependencies
+[nix]
+channel = "stable-22_11"
+
+[env]
+
+# Enable unit tests (if needed)
+[unitTest]
+language = "python3"
+
+# Preserve files when importing from GitHub
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix", ".config", "venv"]
+
+# Deployment settings
+[deployment]
+run = ["sh", "-c", "python3 main.py"]
+
+[[ports]]
+localPort = 8080
+externalPort = 80
