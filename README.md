@@ -27,51 +27,6 @@ Below is a list of available commands and their functionalities:
 
 ---
 
-## **Setup Instructions**
-
-Follow these steps to set up and run Flippy on your local machine or a hosting platform like Replit:
-
-### **Prerequisites**
-- Python 3.8 or later
-- A Discord Developer Bot Token
-- Libraries:
-  - `nextcord`
-  - `wavelink`
-  - `flask`
-
-### **1. Clone the Repository**
-Clone this repository to your local machine:
-```bash
-git clone https://github.com/<your-username>/Flippy.git
-cd Flippy
-```
-
-### **2. Install Dependencies**
-Install all required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-If you're on Replit, dependencies are automatically managed via `replit.nix`.
-
-### **3. Set Up Environment Variables**
-Create a `.env` file in the project directory to store your bot token:
-```plaintext
-Token=<YOUR_BOT_TOKEN>
-```
-
-Replace `<YOUR_BOT_TOKEN>` with your Discord Bot token. **Do not share this token.**
-
-### **4. Run the Bot**
-Run the bot with the following command:
-```bash
-python main.py
-```
-
-For Replit hosting, the `host.py` file ensures the bot stays online.
-
----
-
 ## **Games Overview**
 
 ### **Coinflip**
