@@ -119,21 +119,6 @@ You can host Flippy on:
 
 ---
 
-## **Contributing**
-Contributions are welcome! To contribute:
-1. Fork this repository.
-2. Create a new branch for your feature:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Added feature-name"
-   ```
-4. Push the changes and create a pull request.
-
----
-
 ## **Contact**
 If you have any questions, feel free to reach out:
 - Discord: tri4ngulum
